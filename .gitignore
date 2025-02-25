@@ -1,0 +1,61 @@
+# Environment variables and API keys
+.env
+.env.*
+*.env
+*.env_*
+api_keys.txt
+config.ini
+credentials.json
+
+# Python virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_metadata
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+log/
+
+# Local development settings
+local_settings.py

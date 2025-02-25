@@ -1,0 +1,8 @@
+# Create langchain_apps "foundation" environment for Langchain tutorials 
+
+# Create environment
+conda create --name LangChain_apps --channel conda-forge python=3.12 conda pip langchain ipykernel jupyterlab langchain-community yfinance arxiv
+
+# Activate environment
+conda activate langchain_apps
+

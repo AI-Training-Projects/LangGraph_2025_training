@@ -1,0 +1,29 @@
+# Conda commands to update the langchain_apps environment to run the langflow training examples
+# This assumes we have the environment "langchain_apps" already built. 
+
+# conda activate langchain_apps
+
+# Use the file langchain_apps_env_UPDATE.yml 
+
+# conda env update -f langchain_apps_env_UPDATE.yml
+
+name: langchain_apps
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - notebook
+  - langchain-core
+  - langchain-community
+  - langchain-openai
+  - langsmith
+  - langgraph
+  - langgraph-sdk
+  - wikipedia
+  - pip
+  - pip:
+    - langgraph-checkpoint-sqlite
+    - tavily-python
+    - trustcall
+    - langgraph-cli
